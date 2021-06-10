@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXAMEN5</title>
+</head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/modal.css">
+<body>
+    <div class="contenedor">
+        <p>ALIMENTOS FRESCOS</p>
+
+        <div class="contenido" id="contenido">
+            <!-- <div class="producto">
+                <div><img src="IMG/broccoli1.png" alt=""></div>
+                <div class="nombre">Brócoli</div>
+                <div class="precio">0</div>
+                <div class="botones">
+                    <div class="menos" onclick="menos()">-</div>
+                    <div class="numero" id="numero">0</div>
+                    <div class="mas" onclick="menos()">+</div>
+                </div>
+            </div> -->
+        </div>
+        <div class="menu">
+            <div class="foto">
+                <img src="IMG/icon-cart3.png"  onclick="abrirModal()" >
+                <div class="numcarro" id="numcarro">0</div>
+            </div>
+        </div> 
+        
+        <div class="cajamodal" id="contenedorModal" style="display: none;">
+            <div class="modal">
+                 <div class="cierre" ><p onclick="cierreModal()">X</p></div>
+                 <div id="contenedorCarrito">
+        
+                 </div>
+             </div> 
+        
+         </div> 
+    </div>
+    
+</body>
+<script src="JS/motor.js"></script>
+<script src="JS/modal.js"></script>
+</html>
